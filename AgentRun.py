@@ -1,6 +1,4 @@
 # AgentRun.py
-#
-
 
 #from langchain.agents import initialize_agent
 #from langchain.agents import AgentType
@@ -16,9 +14,9 @@ warnings.filterwarnings("ignore", category=LangChainDeprecationWarning)
 
 # Initialize the agent
 # agent_setup.py
-from agent_setup import create_agent
+#from agent_setup import create_agent
 from agent_setup import run_agent
-agent = create_agent()
+#agent = create_agent()
 
 import time
 from colorama import Fore, Style
@@ -46,15 +44,14 @@ def print_agent_response(response_text):
 
 while True:
     query = input(Fore.LIGHTRED_EX + "\n🧑 You: " + Style.RESET_ALL)
-    if query.lower() in ["exit", "quit", "stop"]:
+    if query.lower() in ["exit", "quit", "stop", "bye"]:
         print("👋 Goodbye!")
         break
     #response = agent.run(query)
     #print(Fore.CYAN + "\n🤖 Agent: " + Style.RESET_ALL)
     #simulate_typing(run_agent(agent, query))
-    print_agent_response(run_agent(agent, query))
-
-
+    print_agent_response(run_agent(query))
+    #print_agent_response(run_agent(agent, query))
 
 
 
@@ -63,4 +60,5 @@ while True:
 
 
 #agent.run("What's the sentiment of the tweet: 'I hate this so much 😡'")
+
 
