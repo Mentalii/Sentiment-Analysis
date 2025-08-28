@@ -1,0 +1,235 @@
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Hey, Man! My name is Albert.
+Agent Raw: {'input': 'Hey, Man! My name is Albert.', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={})], 'output': 'Hello, Albert! Nice to meet you!'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Ok, what is your Name?
+Agent Raw: {'input': 'Ok, what is your Name?', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={})], 'output': 'I am an AI language model and do not have a personal name. You can refer to me as Assistant.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Ok, what is your favorite sport?
+Agent Raw: {'input': 'Ok, what is your favorite sport?', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your favorite sport?', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have a favorite sport.", additional_kwargs={}, response_metadata={})], 'output': "I don't have a favorite sport."}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is asked you in previous question?
+Agent Raw: {'input': 'What is asked you in previous question?', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your favorite sport?', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have a favorite sport.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is asked you in previous question?', additional_kwargs={}, response_metadata={}), AIMessage(content="The previous question asks me to answer questions as best as I can using specific tools and formats. It outlines how to respond to inquiries about sentiment and factual information regarding the student 'Vitalii Kozak.'", additional_kwargs={}, response_metadata={})], 'output': "The previous question asks me to answer questions as best as I can using specific tools and formats. It outlines how to respond to inquiries about sentiment and factual information regarding the student 'Vitalii Kozak.'"}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: My name is Albert
+Agent Raw: {'input': 'My name is Albert', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your favorite sport?', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have a favorite sport.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is asked you in previous question?', additional_kwargs={}, response_metadata={}), AIMessage(content="The previous question asks me to answer questions as best as I can using specific tools and formats. It outlines how to respond to inquiries about sentiment and factual information regarding the student 'Vitalii Kozak.'", additional_kwargs={}, response_metadata={}), HumanMessage(content='My name is Albert', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Albert! How can I assist you today?', additional_kwargs={}, response_metadata={})], 'output': 'Nice to meet you, Albert! How can I assist you today?'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is my name?
+Agent Raw: {'input': 'What is my name?', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your favorite sport?', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have a favorite sport.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is asked you in previous question?', additional_kwargs={}, response_metadata={}), AIMessage(content="The previous question asks me to answer questions as best as I can using specific tools and formats. It outlines how to respond to inquiries about sentiment and factual information regarding the student 'Vitalii Kozak.'", additional_kwargs={}, response_metadata={}), HumanMessage(content='My name is Albert', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Albert! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={})], 'output': 'Your name is Vitalii Kozak.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What did i asked you in previous message?
+Agent Raw: {'input': 'What did i asked you in previous message?', 'chat_history': [HumanMessage(content='Hey, Man! My name is Albert.', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello, Albert! Nice to meet you!', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your Name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='Ok, what is your favorite sport?', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have a favorite sport.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is asked you in previous question?', additional_kwargs={}, response_metadata={}), AIMessage(content="The previous question asks me to answer questions as best as I can using specific tools and formats. It outlines how to respond to inquiries about sentiment and factual information regarding the student 'Vitalii Kozak.'", additional_kwargs={}, response_metadata={}), HumanMessage(content='My name is Albert', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Albert! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i asked you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='I cannot determine what you asked in the previous message.', additional_kwargs={}, response_metadata={})], 'output': 'I cannot determine what you asked in the previous message.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Hey Man! My name is Askold
+Agent Raw: {'input': 'Hey Man! My name is Askold', 'chat_history': [HumanMessage(content='Hey Man! My name is Askold', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello Askold! How can I assist you today?', additional_kwargs={}, response_metadata={})], 'output': 'Hello Askold! How can I assist you today?'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is my name>
+Agent Raw: {'input': 'What is my name>', 'chat_history': [HumanMessage(content='Hey Man! My name is Askold', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello Askold! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name>', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={})], 'output': 'Your name is Vitalii Kozak.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What did i asked you in previous message?
+Agent Raw: {'input': 'What did i asked you in previous message?', 'chat_history': [HumanMessage(content='Hey Man! My name is Askold', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello Askold! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name>', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i asked you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is your name?
+Agent Raw: {'input': 'What is your name?', 'chat_history': [HumanMessage(content='Hey Man! My name is Askold', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello Askold! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name>', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i asked you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={})], 'output': 'I am an AI language model and do not have a personal name. You can refer to me as Assistant.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is your favorite sport
+Agent Raw: {'input': 'What is your favorite sport', 'chat_history': [HumanMessage(content='Hey Man! My name is Askold', additional_kwargs={}, response_metadata={}), AIMessage(content='Hello Askold! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name>', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i asked you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your favorite sport', additional_kwargs={}, response_metadata={}), AIMessage(content="I don't have personal preferences, but I can provide information about various sports if you're interested!", additional_kwargs={}, response_metadata={})], 'output': "I don't have personal preferences, but I can provide information about various sports if you're interested!"}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Hey! My name is Barak
+Agent Raw: {'input': 'Hey! My name is Barak', 'chat_history': [HumanMessage(content='Hey! My name is Barak', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is your name?
+Agent Raw: {'input': 'What is your name?', 'chat_history': [HumanMessage(content='Hey! My name is Barak', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What sport do you play?
+Agent Raw: {'input': 'What sport do you play?', 'chat_history': [HumanMessage(content='Hey! My name is Barak', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What sport do you play?', additional_kwargs={}, response_metadata={}), AIMessage(content='Vitalii Kozak plays calisthenics, volleyball, soccer, and basketball.', additional_kwargs={}, response_metadata={})], 'output': 'Vitalii Kozak plays calisthenics, volleyball, soccer, and basketball.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Hey! My name is Tom
+Agent Raw: {'input': 'Hey! My name is Tom', 'chat_history': [HumanMessage(content='Hey! My name is Tom', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Tom! How can I assist you today?', additional_kwargs={}, response_metadata={})], 'output': 'Nice to meet you, Tom! How can I assist you today?'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is your name?
+Agent Raw: {'input': 'What is your name?', 'chat_history': [HumanMessage(content='Hey! My name is Tom', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Tom! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What did i ask you in message before?
+Agent Raw: {'input': 'What did i ask you in message before?', 'chat_history': [HumanMessage(content='Hey! My name is Tom', additional_kwargs={}, response_metadata={}), AIMessage(content='Nice to meet you, Tom! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i ask you in message before?', additional_kwargs={}, response_metadata={}), AIMessage(content='I cannot recall your previous message.', additional_kwargs={}, response_metadata={})], 'output': 'I cannot recall your previous message.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Hey! My name is Steward
+Agent Raw: {'input': 'Hey! My name is Steward', 'chat_history': [HumanMessage(content='Hey! My name is Steward', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is my name?
+Agent Raw: {'input': 'What is my name?', 'chat_history': [HumanMessage(content='Hey! My name is Steward', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={})], 'output': 'Your name is Vitalii Kozak.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What did i ask you in previous message?
+Agent Raw: {'input': 'What did i ask you in previous message?', 'chat_history': [HumanMessage(content='Hey! My name is Steward', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i ask you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={})], 'output': 'Agent stopped due to iteration limit or time limit.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is your name?
+Agent Raw: {'input': 'What is your name?', 'chat_history': [HumanMessage(content='Hey! My name is Steward', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i ask you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={})], 'output': 'I am an AI language model and do not have a personal name. You can refer to me as Assistant.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What sport do you play?
+Agent Raw: {'input': 'What sport do you play?', 'chat_history': [HumanMessage(content='Hey! My name is Steward', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is my name?', additional_kwargs={}, response_metadata={}), AIMessage(content='Your name is Vitalii Kozak.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What did i ask you in previous message?', additional_kwargs={}, response_metadata={}), AIMessage(content='Agent stopped due to iteration limit or time limit.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is your name?', additional_kwargs={}, response_metadata={}), AIMessage(content='I am an AI language model and do not have a personal name. You can refer to me as Assistant.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What sport do you play?', additional_kwargs={}, response_metadata={}), AIMessage(content='Vitalii Kozak participates in various sports activities, including calisthenics, volleyball, soccer, and basketball.', additional_kwargs={}, response_metadata={})], 'output': 'Vitalii Kozak participates in various sports activities, including calisthenics, volleyball, soccer, and basketball.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: Man Hi! I am Daniel
+Agent Raw: {'input': 'Man Hi! I am Daniel', 'chat_history': [HumanMessage(content='Man Hi! I am Daniel', additional_kwargs={}, response_metadata={}), AIMessage(content='Hi Daniel! How can I assist you today?', additional_kwargs={}, response_metadata={})], 'output': 'Hi Daniel! How can I assist you today?'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: I am wondering is there any fun fact about France?
+Agent Raw: {'input': 'I am wondering is there any fun fact about France?', 'chat_history': [HumanMessage(content='Man Hi! I am Daniel', additional_kwargs={}, response_metadata={}), AIMessage(content='Hi Daniel! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='I am wondering is there any fun fact about France?', additional_kwargs={}, response_metadata={}), AIMessage(content="A fun fact about France is that it is home to the world's largest art museum, the Louvre, which houses over 380,000 objects, including the famous painting, the Mona Lisa.", additional_kwargs={}, response_metadata={})], 'output': "A fun fact about France is that it is home to the world's largest art museum, the Louvre, which houses over 380,000 objects, including the famous painting, the Mona Lisa."}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is hobby of a student?
+Agent Raw: {'input': 'What is hobby of a student?', 'chat_history': [HumanMessage(content='Man Hi! I am Daniel', additional_kwargs={}, response_metadata={}), AIMessage(content='Hi Daniel! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='I am wondering is there any fun fact about France?', additional_kwargs={}, response_metadata={}), AIMessage(content="A fun fact about France is that it is home to the world's largest art museum, the Louvre, which houses over 380,000 objects, including the famous painting, the Mona Lisa.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is hobby of a student?', additional_kwargs={}, response_metadata={}), AIMessage(content='Vitalii Kozak enjoys music, various sports activities (including calisthenics, volleyball, soccer, and basketball), as well as traveling and hiking in the mountains.', additional_kwargs={}, response_metadata={})], 'output': 'Vitalii Kozak enjoys music, various sports activities (including calisthenics, volleyball, soccer, and basketball), as well as traveling and hiking in the mountains.'}
+---
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User: What is emotional background behind: "I want to go abroad"
+Agent Raw: {'input': 'What is emotional background behind: "I want to go abroad"', 'chat_history': [HumanMessage(content='Man Hi! I am Daniel', additional_kwargs={}, response_metadata={}), AIMessage(content='Hi Daniel! How can I assist you today?', additional_kwargs={}, response_metadata={}), HumanMessage(content='I am wondering is there any fun fact about France?', additional_kwargs={}, response_metadata={}), AIMessage(content="A fun fact about France is that it is home to the world's largest art museum, the Louvre, which houses over 380,000 objects, including the famous painting, the Mona Lisa.", additional_kwargs={}, response_metadata={}), HumanMessage(content='What is hobby of a student?', additional_kwargs={}, response_metadata={}), AIMessage(content='Vitalii Kozak enjoys music, various sports activities (including calisthenics, volleyball, soccer, and basketball), as well as traveling and hiking in the mountains.', additional_kwargs={}, response_metadata={}), HumanMessage(content='What is emotional background behind: "I want to go abroad"', additional_kwargs={}, response_metadata={}), AIMessage(content='The emotional background behind "I want to go abroad" may reflect feelings of frustration or dissatisfaction with the current situation, indicating a desire to escape or seek better opportunities, despite the phrase itself expressing a wish for travel or new experiences.', additional_kwargs={}, response_metadata={})], 'output': 'The emotional background behind "I want to go abroad" may reflect feelings of frustration or dissatisfaction with the current situation, indicating a desire to escape or seek better opportunities, despite the phrase itself expressing a wish for travel or new experiences.'}
+---
