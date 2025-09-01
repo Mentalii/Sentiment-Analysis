@@ -1,0 +1,53 @@
+services:
+  python-agent_service:
+    build:
+      context: ./Agent Service
+    container_name: python-agent_service
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8002:8002"
+    # env_file: ./Agent Service/envir.env  # Uncomment if envir.env contains runtime environment variables
+    networks:
+      - backend
+    depends_on:
+      - python-rag_service
+      - python-sentiment_tool_service
+
+  python-rag_service:
+    build:
+      context: ./RAG service
+    container_name: python-rag_service
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8001:8001"
+    networks:
+      - backend
+
+  python-sentiment_tool_service:
+    build:
+      context: ./Sentiment tool Service
+    container_name: python-sentiment_tool_service
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8000:8000"
+    networks:
+      - backend
+
+  python-telegram_bot:
+    build:
+      context: ./telegram Bot
+    container_name: python-telegram_bot
+    restart: unless-stopped
+    init: true
+    # env_file: ./telegram Bot/.env  # Uncomment if .env file exists for the Telegram Bot
+    networks:
+      - backend
+    depends_on:
+      - python-agent_service
+
+networks:
+  backend:
+    driver: bridge
