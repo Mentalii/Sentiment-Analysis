@@ -32,6 +32,12 @@ This project is composed of four main services, each with its own Dockerfile and
    ```
    This will build all images and start the services with the correct dependencies and networking.
 
+4. **To run containers if images are built:**
+
+    ```sh
+   docker compose up 
+   ```
+
 ### Special Configuration Notes
 - All services are connected via a custom Docker network (`backend`).
 - The Agent Service depends on both the RAG and Sentiment Tool services, and the Telegram Bot depends on the Agent Service.
