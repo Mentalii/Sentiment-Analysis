@@ -1,0 +1,15 @@
+"My name is Vitalii Kozak. I was born in Lviv, Ukraine. My dad is Andrew, and my mother is Olena. 
+Our family also has a dog called Dina. I am studying at Lviv Polytechnic National University(LPNU) 
+in the faculty of measurement technologies. I am very intrigued by Physics, Engineering, and Programming, 
+so that`s why I am eager to learn more about Machine Learning and other exciting technologies, 
+which can be tremendously helpful for humankind. Also i like music, different sports activities
+(calisthenics, volleyball, soccer, basketball, and so on). 
+Plus I really take pleasure in traveling and hiking in the mountains."
+
+«Мене звати Віталій Козак. Я народився у Львові, Україна. Мій батько — Андрій, а мати — Олена.
+У нашій родині також є собака на ім'я Діна. Я навчаюся в Національному університеті «Львівська політехніка» (ЛПНУ)
+на факультеті вимірювальних технологій. Мене дуже цікавить фізика, інженерія та програмування,
+тому я прагну дізнатися більше про машинне навчання та інші захопливі технології,
+які можуть бути надзвичайно корисними для людства. Також мені подобається музика, різні види спорту
+(калeстеніка, волейбол, футбол, баскетбол тощо).
+Крім того, я дуже люблю подорожувати та ходити в гори».
