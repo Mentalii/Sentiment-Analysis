@@ -146,7 +146,10 @@ Agent awaiting when there will be POST request from user (it can came from Termi
 1) Sentiment classifier: http://localhost:8000/classify
 2) RAG: http://localhost:8001/retrieve
 
-Also MCP was used for communication with Agent through Telegram Bot.
+Note! Microservices URLs need to be changed for containerization! If you made docker for services and build images and containers with Docker Compose. Then internal network will be used. You will need to change URLs otherwise microservices wouldn`t be able to connect to each other. Agent URL would look like this: AGENT_URL = "http://python-agent_service:8002/chat" and the same for each tool.
+   
+
+MCP was used for communication with Agent through Telegram Bot.
 
 In this project, MCP is used to:
 
