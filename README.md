@@ -43,8 +43,8 @@ This project is composed of four main services, each with its own Dockerfile and
 - **System Dependencies:** All services (except Telegram Bot) install `git` for Python package requirements.
 - **Virtual Environments:** Each service installs dependencies into a local virtual environment (`.venv`).
 
-### Environment Variables
-- The `Agent Service` and `Telegram Bot` support environment variable files (`envir.env` and `.env` respectively), but these are commented out in the compose file. If your application requires runtime environment variables, uncomment the relevant `env_file` lines in `docker-compose.yml` and ensure the files exist with the necessary variables.
+### Environment Variables--
+- The `Agent Service` and `Telegram Bot` support environment variable file (`.env`). Set your own environmental variables to test the project. Needed: Openai_api_key and telegram bot token from BotFather.
 
 ### Exposed Ports
 - **Agent Service:** 8002
@@ -54,7 +54,7 @@ This project is composed of four main services, each with its own Dockerfile and
 
 ### Build and Run Instructions
 1. **Clone the repository and ensure Docker and Docker Compose are installed.**
-2. ** Configure environment variables:**
+2. **Configure environment variables:**
 Set up .env with your OpenAI key
 Set up your bot token in telegram_bot.py 
    
