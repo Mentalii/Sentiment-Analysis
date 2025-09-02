@@ -81,7 +81,7 @@ Set up your bot token in telegram_bot.py
 7. **Telegram Bot**
    Open your telegram Bot which you created using Bot father and indicated with token in your telegram_bot.py. You can chat with it now!
 
-telegram_bot.py
+
 Telegram bot interface using python-telegram-bot. Supports commands:
 
 /start, /help
