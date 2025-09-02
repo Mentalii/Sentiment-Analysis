@@ -37,6 +37,17 @@ This project is composed of four main services, each with its own Dockerfile and
     ```sh
    docker compose up 
    ```
+    or to temporary stop containers via terminal:
+   ```sh
+   Ctrl + C 
+   ```
+   To run containers on backround(and do not block current terminal) use '-d'(detached mode):
+   ```sh
+   docker compose up -d
+   ```
+   
+   
+   
 
 ### Special Configuration Notes
 - All services are connected via a custom Docker network (`backend`).
