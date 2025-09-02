@@ -59,12 +59,13 @@ Set up .env with your OpenAI key
 Set up your bot token in telegram_bot.py 
    
 4. **Build and start all services:**
+   (Run in terminal of root folder of project)
    ```sh
    docker compose up --build
    ```
    This will build all images and start the services with the correct dependencies and networking.
 
-5. **To run containers if images are built:**
+6. **To run containers if images are built:**
 
     ```sh
    docker compose up 
@@ -77,7 +78,7 @@ Set up your bot token in telegram_bot.py
    ```sh
    docker compose up -d
    ```
-6. **Telegram Bot**
+7. **Telegram Bot**
    Open your telegram Bot which you created using Bot father and indicated with token in your telegram_bot.py. You can chat with it now!
 
 telegram_bot.py
