@@ -53,7 +53,10 @@ This project is composed of four main services, each with its own Dockerfile and
 - All services are connected via a custom Docker network (`backend`).
 - The Agent Service depends on both the RAG and Sentiment Tool services, and the Telegram Bot depends on the Agent Service.
 - If you need to persist or access logs, check the `agent_log.txt` in the Agent Service directory.
-- The Telegram Bot does not expose a port; it communicates via the Telegram API.
+- The Telegram Bot does not expose a port; it communicates via the Telegram API. Bot receives user messages from Telegram then using POST requst it calls AI agent.
+Telegram user → bot → MCP payload → agent → tool → back to Telegram 
+- AI agent comunicate with tools using POST requests. Tools can be accessed only through AI agent.
+  
 
 ### Summary Table
 | Service                  | Build Context                | Exposed Port |
