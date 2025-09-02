@@ -154,11 +154,11 @@ MCP was used for communication with Agent through Telegram Bot.
 
 In this project, MCP is used to:
 
-Pass user queries and history from Telegram to the agent
+- Pass user queries and history from Telegram to the agent
 
-Ensure consistent memory and tool usage
+- Ensure consistent memory and tool usage
 
-Enable future expansion to other interfaces (web, voice, etc.)
+- Enable future expansion to other interfaces (web, voice, etc.)
 
 ### 🧑‍🎓 About the Agent
 Mike is a friendly, funny student who plays baseball and studies at the University of Data Lab. He remembers your last 10 messages and knows when to use tools — and when to just chat.
