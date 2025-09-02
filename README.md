@@ -45,6 +45,11 @@ This project is composed of four main services, each with its own Dockerfile and
    ```sh
    docker compose up -d
    ```
+5. **Telegram Bot**
+   Open your telegram Bot which you created using Bot father and indicated with token in your telegram_bot.py. You can chat with it now!
+
+6. **Terminal**
+   In root folder of your project open terminal and run: pyhon AgentRun.py. After you can chat with agent from terminal.
    
    
    
@@ -67,3 +72,8 @@ Telegram user → bot → MCP payload → agent → tool → back to Telegram
 | Telegram Bot             | ./telegram Bot              | (none)       |
 
 Refer to the `docker-compose.yml` for further customization or to add environment variables as needed.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
