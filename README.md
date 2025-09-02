@@ -2,6 +2,8 @@
 
 This project is a modular AI agent system built with LangChain, FastAPI, and Telegram integration. It uses **tool-aware orchestration** to route user queries to the appropriate microservice — either a **Sentiment Classifier** or a **RAG Retriever** — and responds contextually with memory and personality.
 
+To check how base-Bert-Model was finetuned check the link on huggingface: https://huggingface.co/Mentalii/sentiment-tweets-pos-neg-epoch3/blob/main/README.md
+
 The agent is accessible via:
 - 🖥️ Terminal interface
 - 📱 Telegram bot
