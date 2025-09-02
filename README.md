@@ -1,3 +1,20 @@
+## AI Agent with Sentiment Analysis and RAG
+
+This project implements an AI agent capable of interacting with users and leveraging two distinct tools to provide intelligent responses:
+
+1.  **Sentiment Classifier Tool**: This tool analyzes the sentiment of user input, classifying it as positive or negative.
+
+2.  **RAG (Retrieval Augmented Generation) Tool**: This tool enables the agent to retrieve relevant information from a provided `student_bio.txt` file. This allows the agent to answer questions based on a specific knowledge base.
+
+## Project Structure
+
+The project is organized into several services, each responsible for a specific functionality:
+
+-   **Agent Service**: The core AI agent that orchestrates interactions and tool usage.
+-   **RAG Service**: Provides the retrieval-augmented generation capabilities, using `student_bio.txt` as its knowledge base.
+-   **Sentiment Tool Service**: Offers sentiment analysis functionality.
+-   **Telegram Bot**: An interface to interact with the AI agent via Telegram.
+
 ## Running the Project with Docker
 
 This project is composed of four main services, each with its own Dockerfile and managed together via `docker-compose.yml`. The services are:
