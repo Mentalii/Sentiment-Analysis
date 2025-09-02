@@ -133,6 +133,7 @@ Pydantic (schema validation)
 Model Context Protocol (agent communication)
 
 Docker (microservice containerization)
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 Microservice Architecture was used. As it mentioned before there is 4 main services: 
@@ -167,3 +168,5 @@ Apache 2.0 — free to use, modify, and share.
 
 ### 🙌 Credits
 Built by Vitalii Kozak.
+
+----------------------------------------------------------------------------------------------------------------------------
