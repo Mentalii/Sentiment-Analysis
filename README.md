@@ -97,7 +97,8 @@ Internally, it builds MCP-compliant payloads and sends them to the agent service
 🧠 This bot gives users a conversational interface with tool-aware routing and memory.
 
 6. **Terminal**
-   In root folder of your project open terminal and run: pyhon AgentRun.py. After you can chat with agent from terminal.
+   
+   In root folder of your project open terminal and run: pyhon AgentRun.py. 
    
    
    
