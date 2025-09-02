@@ -140,6 +140,7 @@ Microservice Architecture was used. As it mentioned before there is 4 main servi
 - RAG Service
 - Sentiment Tool Service
 - Telegram Bot
+  
 Tools and agent services were made with FastApi, so they could communicate with each other.
 Agent awaiting when there will be POST request from user (it can came from Terminal, telgram bot or if you use http://localhost:8002/chat to make request). Then if needed agent will call tools via http POST requests to their services:
 1) Sentiment classifier: http://localhost:8000/classify
