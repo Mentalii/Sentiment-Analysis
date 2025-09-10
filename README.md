@@ -21,6 +21,8 @@ Each tool is wrapped as a LangChain `Tool` with a clear usage policy:
 
 Telegram Bot ↔ MCP Agent Service ↔ LangChain Agent ↔ Tools: 1) Sentiment Microservice 2) RAG Microservice
 
+![Uploading image.png…]()
+
 ## Project Structure
 
 The project is organized into several services, each responsible for a specific functionality:
