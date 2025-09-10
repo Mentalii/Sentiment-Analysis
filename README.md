@@ -20,8 +20,9 @@ Each tool is wrapped as a LangChain `Tool` with a clear usage policy:
 ## 🧩 Architecture Overview
 
 Telegram Bot ↔ MCP Agent Service ↔ LangChain Agent ↔ Tools: 1) Sentiment Microservice 2) RAG Microservice
+<img width="1536" height="1024" alt="Copilot_20250910_220147" src="https://github.com/user-attachments/assets/d68c6454-7b95-4da4-8dce-753cecb77b36" />
 
-![Uploading image.png…]()
+
 
 ## Project Structure
 
